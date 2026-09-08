@@ -96,20 +96,20 @@
 //   print("Min: $min");
 // }
 // TASK5
-void main(){
-  int number = 2;
-  bool isprime=true;
-  if(number<2){
-    isprime=false;
-  }for(int i=2;i<number;i++){
-    if(number%2==0){
-      isprime=false;
-      break;
-    }
-  }
-  if (isprime) {
-    print("$number -> prime number");
-  } else {
-    print("$number -> not prime number");
-  }
-}
+// void main(){
+//   int number = 2;
+//   bool isprime=true;
+//   if(number<2){
+//     isprime=false;
+//   }for(int i=2;i<number;i++){
+//     if(number%2==0){
+//       isprime=false;
+//       break;
+//     }
+//   }
+//   if (isprime) {
+//     print("$number -> prime number");
+//   } else {
+//     print("$number -> not prime number");
+//   }
+// }
