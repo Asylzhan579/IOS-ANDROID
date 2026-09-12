@@ -95,21 +95,42 @@
 //   print("Max: $max");
 //   print("Min: $min");
 // }
-// TASK5
-void main(){
-  int number = 2;
-  bool isprime=true;
-  if(number<2){
-    isprime=false;
-  }for(int i=2;i<number;i++){
-    if(number%2==0){
-      isprime=false;
-      break;
-    }
-  }
-  if (isprime) {
-    print("$number -> prime number");
-  } else {
-    print("$number -> not prime number");
-  }
-}
+// classwork
+// void main() {
+//   processOrder(orderId: 101, itemPrice: 2000.0, promoCode: 'SAVE10');
+//
+//
+//   processOrder(orderId: 102, itemPrice: 1500.0, deliveryFee: 300.0);
+//
+//
+//   processOrder(orderId: 103, itemPrice: 4000.0);
+// }
+//
+// double processOrder({
+//   required int orderId,
+//   required double itemPrice,
+//   String? promoCode,
+//   double? deliveryFee,
+// }) {
+//   double discount = 0.0;
+//   if (promoCode == 'SAVE10') {
+//     discount = itemPrice * 0.10;
+//   }
+//
+//   double priceAfterDiscount = itemPrice - discount;
+//
+//   double finalDeliveryFee = deliveryFee ?? 500.0;
+//
+//   double total = priceAfterDiscount + finalDeliveryFee;
+//
+//   print('Order Summary');
+//   print('Order ID: $orderId');
+//   print('Item Price: ${itemPrice.toStringAsFixed(2)} ₸');
+//   print('Promo Code: ${promoCode ?? "none"}');
+//   print('Discount: ${discount.toStringAsFixed(2)} ₸');
+//   print('Delivery Fee: ${finalDeliveryFee.toStringAsFixed(2)} ₸');
+//   print('Final Total: ${total.toStringAsFixed(2)} ₸');
+//
+//   return total;
+// }
+//
