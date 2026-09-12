@@ -95,7 +95,7 @@
 //   print("Max: $max");
 //   print("Min: $min");
 // }
-// classwork
+// class
 // void main() {
 //   processOrder(orderId: 101, itemPrice: 2000.0, promoCode: 'SAVE10');
 //
