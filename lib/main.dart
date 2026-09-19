@@ -211,5 +211,47 @@
 //
 //   checkBalance(name: name, balance: balance);
 // }
+// LAB3LIbrary
+// class Book {
+//   final String title;
+//   final String author;
+//   final double price;
+//   bool isBorrowed;
+//
+//   Book({
+//     required this.title,
+//     required this.author,
+//     required this.price,
+//     this.isBorrowed = false,
+//   });
+//
+//   @override
+//   String toString() => '$title by $author - $price ₸';
+// }
+//
+// class Library {
+//   final List<Book> _books = [];
+//
+//   void addBook(Book book) => _books.add(book);
+//
+//   List<Book> get availableBooks =>
+//       _books.where((book) => !book.isBorrowed).toList();
+//
+//   double get totalValue =>
+//       _books.fold(0.0, (total, book) => total + book.price);
+// }
+//
+// void main() {
+//   final library = Library()
+//     ..addBook(Book(title: "Atomic Habits", author: "James Clear", price: 5000))
+//     ..addBook(Book(title: "1984", author: "George Orwell", price: 3500, isBorrowed: true))
+//     ..addBook(Book(title: "The Hobbit", author: "J.R.R. Tolkien", price: 4500))
+//     ..addBook(Book(title: "Clean Code", author: "Robert Martin", price: 7000));
+//
+//   print("Available Books:");
+//   library.availableBooks.forEach(print);
+//
+//   print("\nTotal collection value: ${library.totalValue} ₸");
+// }
 
 
