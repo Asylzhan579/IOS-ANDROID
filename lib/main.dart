@@ -95,7 +95,30 @@
 //   print("Max: $max");
 //   print("Min: $min");
 // }
-// class
+// TASK5
+// void main() {
+//   int number = 2;
+//
+//   bool isPrime = true;
+//
+//   if (number < 2) {
+//     isPrime = false;
+//   }
+//
+//   for (int i = 2; i < number; i++) {
+//     if (number % i == 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+//
+//   if (isPrime) {
+//     print("$number -> prime number");
+//   } else {
+//     print("$number -> not prime number");
+//   }
+// }
+//LAB1EX1
 // void main() {
 //   processOrder(orderId: 101, itemPrice: 2000.0, promoCode: 'SAVE10');
 //
@@ -133,7 +156,6 @@
 //
 //   return total;
 // }
-//
 void checkBalance({required String name, required double balance}) =>
     print("$name, your balance is ${balance.toStringAsFixed(2)} ₸");
 double deposit({required double currentBalance, double? amount}) {
@@ -188,4 +210,5 @@ void main() {
 
   checkBalance(name: name, balance: balance);
 }
+
 
